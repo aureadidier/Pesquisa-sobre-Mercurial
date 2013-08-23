@@ -6,3 +6,11 @@ Mercurial foi inicialmente escrito para rodar sobre Linux, mas foi portado para 
 e a maioria dos outros sistemas UNIX. Mercurial é principalmente um programa de linha de comando. 
 Todas operações do Mercurial são chamadas através de palavras chave de opções para o programa controlador hg, 
 uma referência para o símbolo químico do elemento Mercúrio.
+
+Mercurial é um sistema de controle de versão (SCM – Source Code Management). Isso não diz muita coisa, mas, 
+é algo que te ajuda a organizar melhor o desenvolvimento de software, manter um histórico de tudo que faz em seu código,
+manter cópias de seu programa, facilitar a distribuição de código (trabalho em grupos), entre  outras vantagens.
+É rápida e poderosa
+Mercurial lida de forma eficiente projetos de qualquer tamanho e tipo. Cada clone contém todo o histórico do projeto, 
+por isso a maioria das ações são locais, rápido e conveniente. Mercurial suporta uma grande variedade de fluxos de 
+trabalho e você pode facilmente aumentar a sua funcionalidade com extensões.
