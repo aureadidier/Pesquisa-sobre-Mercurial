@@ -6,3 +6,8 @@ Mercurial foi inicialmente escrito para rodar sobre Linux, mas foi portado para 
 e a maioria dos outros sistemas UNIX. Mercurial é principalmente um programa de linha de comando. 
 Todas operações do Mercurial são chamadas através de palavras chave de opções para o programa controlador hg, 
 uma referência para o símbolo químico do elemento Mercúrio.
+
+Principais objetivos do projeto de Mercurial incluem alta performance e escalabilidade, descentralizada, o desenvolvimento 
+colaborativo totalmente distribuído, manuseio robusto de texto simples e arquivos binários, e avançados recursos de ramificação 
+e mesclagem, mantendo-se conceitualmente simples. Ele inclui uma interface web integrada. Mercurial também tomou medidas para 
+facilitar a transição para os usuários do SVN.
