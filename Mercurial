@@ -6,3 +6,29 @@ Mercurial foi inicialmente escrito para rodar sobre Linux, mas foi portado para 
 e a maioria dos outros sistemas UNIX. Mercurial é principalmente um programa de linha de comando. 
 Todas operações do Mercurial são chamadas através de palavras chave de opções para o programa controlador hg, 
 uma referência para o símbolo químico do elemento Mercúrio.
+
+  .INSTALAÇÃO
+
+-Windows:
+Instale apenas o TortoiseHg, que cuidará da instalação completa do Mercurial e também de um outras ferramentas 
+gráficas adicionais para examinar e manipular o repositório.
+Após a instalação, você terá um menu do botão direito no Windows Explorer que lhe dá acesso às ferramentas gráficas.
+Depois de sair, você também terá um hg e um programa de thg disponível em um prompt de comando. Você pode usar o 
+programa thg para iniciar as ferramentas gráficas do TortoiseHg.
+
+-Linux:
+Por favor, instale o Mercurial usando seu gerenciador de pacotes. Se não encontrá-lo, então é possível instalar a 
+partir do código-fonte: obtenha a versão estável mais recente, descompacte em algum lugar e execute local a 
+partir do diretório usado. Logo em seguida, crie um link do script hg para um diretório em seu PATH e tudo certo.
+
+-Mac OS X:
+Recomendamos instalar o MacHg para um bom cliente nativo do Mercurial. MacHg vem empacotado com seu próprio Mercurial,
+de modo que não será necessário se preocupar com isso. Se você já usa o TortoiseHg no Windows, você ficará feliz em 
+saber que também é possível instalá-lo no Mac OS X também.
+Nós usaremos a linha de comando nos exemplos, mas em alguns momentos mostraremos o repositório pelo Workbench do 
+TortoiseHg. Após instalar o Mercurial, tente executar o comando hg version.
+Está tudo bem se você vir um número de versão maior que 2.2. A versão 1.4 do Mercurial também é suficiente para nossos 
+objetivos, mas sempre recomendamos atualizar para a versão mais nova disponível em sua plataforma.
+O nome do usuário normalmente está ausente logo após a instalação. Você pode defini-lo no arquivo de configuração. 
+Em sistemas tipo Unix este arquivo é $HOME/.hgrc e no Windows, o arquivo é chamado de %HOME%\Mercurial.ini 
+(veja hg help config para todas as possibilidades ou use thg userconfig se preferir).
